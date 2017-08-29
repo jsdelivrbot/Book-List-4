@@ -1,0 +1,93 @@
+.app-container {
+    margin: 10px;
+}
+
+.book-detail-header {
+    line-height: 25px;
+    margin: 12px;
+    font-size: 25px;
+}
+
+.book-title, .book-auther {
+    font-size: 15px;
+    font-weight: bold;
+}
+.book-ratings {
+
+}
+
+.book-ratings-4 .one  {
+     content: "\2605";
+   position: absolute;
+}
+
+.clock {
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    border: 1px solid #9E9E9E;
+    color: #6f6f6f;
+    max-width: 105px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contents {
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    border: 1px solid #9E9E9E;
+    color: #6f6f6f;
+    display: flex;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.details {
+    margin: 0 0 0 5px;
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+    width: 70%;
+    display: block;
+    min-height: 100px;
+}
+
+.empty-msg {
+
+}
+
+.header {
+    align-items: center;
+    background-color: rgb(205, 205, 205);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.header .title {
+    color: #525050;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.list-group {
+    width: 30%;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #efefef;
+}
+
+
+hr {
+    margin: 0 !important;
+}
